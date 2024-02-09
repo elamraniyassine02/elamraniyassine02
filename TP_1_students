@@ -1,0 +1,37 @@
+class Student {  
+ String firstName;
+ String lastName;
+ double studentNote;
+ String matriculeNumber;
+ 
+ public Student() {}
+ 
+ public Student(String firstName, String lastName, double studentNote, String matriculeNumber) {
+   this.firstName = firstName;
+   this.lastName = lastName;
+   this.studentNote = studentNote;
+   this.matriculeNumber = matriculeNumber;
+ }
+ 
+ void displayStudent() {
+   System.out.println("First Name: " + this.firstName);
+   System.out.println("Last Name: " + this.lastName);
+   System.out.println("Student Note: " + this.studentNote);
+   System.out.println("Matricule Number: " + this.matriculeNumber);
+ }
+ 
+ void updateAge() {
+   this.age += 2;
+ }
+ 
+ public static void main(String args[]) {  
+  Student s1 = new Student("Yassine", "EL AMRANI", 16, "1234567891");
+  Student s2 = new Student("Ibrahime", "CHERRADI", 14, "1987654321");
+
+  s1.updateAge();
+  s2.updateAge();
+  
+  s1.displayStudent();
+  s2.displayStudent();
+ }  
+}
