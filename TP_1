@@ -10,7 +10,7 @@ public class TP1ex {
 
         int motsecret = 25 ;
 
-        // Compare
+         
         if (a < motsecret) {
             System.out.println("le numero est inferieur au numero secret");
         } else if (a > motsecret) {
