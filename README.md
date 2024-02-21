@@ -8,7 +8,7 @@
 
 <div align="center">
  
-Cybersecurity Engineer Student 🛡️ | Euromed University, Fes 🎓 | Morocco 🇲🇦
+Cybersecurity Engineering Student 🛡️ | Euromed University, Fes 🎓 | Morocco 🇲🇦
 
 Protecting Digital Frontiers 🌐 | Cybersecurity Enthusiast 🤖 | Future Defender Against Cyber Threats 🔒
 
