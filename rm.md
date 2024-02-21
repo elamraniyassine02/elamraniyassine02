@@ -55,9 +55,7 @@ Learning to Secure Tomorrow's World 🌟 | Building Cyber Resilience 💻 | Euro
 <h2 align="center">⚡ Stats ⚡</h2>
 <br>
 <div align=center>
-  <a href="https://git.io/streak-stats">
-    <img src="https://streak-stats.demolab.com?user=elamraniyassine02&theme=dark&hide_border=true&exclude_days=Sun%2CMon%2CTue%2CWed%2CThu%2CFri%2CSat" alt="GitHub Streak" />
-  </a>
+<a href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=elamraniyassine02&theme=blueberry-duo&hide_border=true&border_radius=4&mode=weekly" alt="GitHub Streak" /></a>
   <img width=390 src="https://github-readme-stats.vercel.app/api?username=elamraniyassine02&count_private=true&show_icons=true&theme=react&rank_icon=github&border_radius=10" alt="readme stats" />
   <br/>
   <img width=325 align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=elamraniyassine02&hide=HTML&langs_count=8&layout=compact&theme=react&border_radius=10&size_weight=0.5&count_weight=0.5&exclude_repo=github-readme-stats" alt="top langs" />
