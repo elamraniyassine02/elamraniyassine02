@@ -1,0 +1,412 @@
+
+Prerequisites (To be done on both master and worker nodes)
+1. Install Required Packages  
+   Run the following commands to install `AppArmor`, `auditd`, and related utilities:  
+   ```
+   sudo apt install python3-apparmor python3-libapparmor apparmor-utils auditd
+   ```
+
+2. Verify AppArmor Status**  
+   Check if `AppArmor` is enabled:  
+   ```
+   sudo aa-status
+   ```
+   Ensure `auditd` is running. If not, start it:  
+   ```
+   sudo systemctl status auditd
+   sudo systemctl start auditd
+   ```
+
+---
+
+**Step 1: Set Up the `copycat-3` Program (worker Node:)
+1. Copy the `cat` Program  
+   Create a copy of the `cat` program to test AppArmor profiles:  
+   ```
+   sudo cp /bin/cat /bin/copycat-3
+   ```
+
+---
+
+Step 2: Generate an AppArmor Profile for `copycat-3` (worker Node:)
+1. Run `aa-genprof` to Create a Profile  
+   ```
+   sudo aa-genprof copycat-3
+   ```
+
+2. Run `copycat-3` to Generate Logs  
+   Execute `copycat-3` on a sensitive file to trigger logs:  
+   ```
+   copycat-3 /etc/passwd
+   ```
+
+3. Check Audit Logs  
+   View the audit logs to see the recorded events:  
+   ```
+   sudo cat /var/log/audit/audit.log
+   ```
+
+4. Analyze Logs with `aa-genprof`  
+   - Rerun `aa-genprof` and select Scan (S) to analyze the logs.  
+   - Follow the prompts to include required permissions in the profile.  
+   - Save and exit.
+
+---
+
+Step 3: Test the Profile (worker Node:)
+1. Verify File Access  
+   Test whether `copycat-3` can access specific files:  
+   ```
+   copycat-3 /etc/passwd
+   copycat-3 /home/worker/.rc
+   ```
+
+2. Observe Behavior  
+   Check if access is restricted as per the AppArmor profile.
+
+---
+
+Step 4: Update the Profile (worker Node:)
+1. Modify Profile Using `aa-logprof`  
+   Update the profile based on unauthorized actions:  
+   ```
+   sudo aa-logprof
+   ```
+   Choose Globe (G) to accept proposed changes.
+
+2. Reload the Updated Profile  
+   Apply the changes to the AppArmor profile:  
+   ```
+   sudo apparmor_parser -r /etc/apparmor.d/usr.bin.copycat-3
+   ```
+
+
+### Installing Elasticsearch
+
+1. Import the Elasticsearch GPG Key  
+   Import the GPG key for Elasticsearch:
+   ``
+wget -qO - https://artifacts.elastic.co/GPG-KEY-elasticsearch | sudo gpg --dearmor -o /usr/share/keyrings/elasticsearch-keyring.gpg   
+```
+
+2. Install the `apt-transport-https` Package  
+   Install the `apt-transport-https` package (if not already installed):
+   ``
+sudo apt-get install apt-transport-https
+   ```
+
+3. Add the Elasticsearch APT Repository  
+   Add the repository for Elasticsearch:
+   ``
+echo "deb [signed-by=/usr/share/keyrings/elasticsearch-keyring.gpg] https://artifacts.elastic.co/packages/8.x/apt stable main" | sudo tee /etc/apt/sources.list.d/elastic-8.x.list 
+  ```
+
+4. Install Elasticsearch  
+   Install Elasticsearch:
+   ``
+sudo apt-get update && sudo apt-get install elasticsearch 
+  ```
+
+The generated password for the elastic built-in superuser is : p+WzrtCskJa1U+=mT1Wb
+
+
+
+
+### Installing Kibana and Logstash
+
+1. Install Kibana and Logstash  
+   Install Kibana and Logstash:
+   ``
+   sudo apt-get install kibana logstash
+   ```
+   
+
+---
+sudo nano /etc/elasticsearch/elasticsearch.yml
+'
+# ---------------------------------- Cluster -----------------------------------
+#
+# Use a descriptive name for your cluster:
+#
+cluster.name: my-application
+#
+
+# ---------------------------------- Network -----------------------------------
+
+network.host: 0.0.0.0
+# --------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+'
+openssl rand -base64 32 | cut -c1-32
+
+
+sudo nano /etc/kibana/kibana.yml
+
+'
+
+xpack.encryptedSavedObjects.encryptionKey: "YmeV68KA+yZXearg3ZwaXRzQZVwTuM62"
+
+# =================== System: Kibana Server ===================
+
+server.port: 5601
+server.host: "0.0.0.0"
+# =================== System: Elasticsearch ===================
+
+elasticsearch.hosts: ["http://localhost:9200"]
+
+
+'
+sudo nano /etc/logstash/conf.d/beats.conf
+'
+
+input {
+  beats {
+    port => 5044
+  }
+}
+
+filter {
+  if "apparmor" in [tags] {
+    grok {
+      match => { "message" => "%{TIMESTAMP_ISO8601:timestamp} %{DATA:app} %{GREEDYDATA:log}" }
+    }
+    date {
+      match => [ "timestamp", "ISO8601" ]
+    }
+  }
+  # Filter for syslog logs
+  if [type] == "syslog" {
+    grok {
+      match => { "message" => "%{SYSLOGLINE}" }
+    }
+    date {
+      match => [ "timestamp", "MMM d HH:mm:ss", "MMM dd HH:mm:ss" ]
+    }
+  }
+
+  # Filter for Apache logs
+  if [type] == "apache" {
+    grok {
+      match => { "message" => "%{COMBINEDAPACHELOG}" }
+    }
+    date {
+      match => ["timestamp", "dd/MMM/yyyy:HH:mm:ss Z"]
+    }
+  }
+
+  # Filter for Auditbeat logs (module auditd)
+  if [event.module] == "auditd" {
+    mutate {
+      add_tag => ["auditbeat"]
+    }
+  }
+}
+
+output {
+
+    # Output for Elasticsearch using dynamic indices based on the type of beat
+  if "auditbeat" in [tags] {
+    elasticsearch {
+      hosts => ["localhost:9200"]
+      index => "auditbeat-%{+YYYY.MM.dd}"
+    }
+  } else if [type] == "syslog" {
+    elasticsearch {
+      hosts => ["localhost:9200"]
+      index => "syslog-%{+YYYY.MM.dd}"
+    }
+  } else if [type] == "apache" {
+    elasticsearch {
+      hosts => ["localhost:9200"]
+      index => "apache-%{+YYYY.MM.dd}"
+    }
+  } else {
+    elasticsearch {
+      hosts => ["localhost:9200"]
+      index => "%{[@metadata][beat]}-%{+YYYY.MM.dd}"
+    }
+  }
+}
+
+
+'
+
+### Start and Enable the Services
+
+1. Enable and Start Elasticsearch  
+   Enable and start Elasticsearch:
+   ``
+sudo systemctl enable elasticsearch
+sudo systemctl start elasticsearch
+sudo systemctl status elasticsearch
+   ```
+
+2. Enable and Start Kibana  
+   Enable and start Kibana:
+   ``
+sudo systemctl enable kibana
+sudo systemctl start kibana
+sudo systemctl status kibana
+   ```
+
+3. Enable and Start Logstash  
+   Enable and start Logstash:
+   ``
+sudo systemctl enable logstash
+sudo systemctl start logstash
+sudo systemctl status logstash
+
+   ```
+
+---
+
+
+
+### SInstalling and Configuring Filebeat on worker
+1. Import the Elasticsearch GPG Key  
+   Import the GPG key for Elasticsearch:
+   ``
+wget -qO - https://artifacts.elastic.co/GPG-KEY-elasticsearch | sudo gpg --dearmor -o /usr/share/keyrings/elasticsearch-keyring.gpg 
+  ```
+
+2. Install the `apt-transport-https` Package  
+   Install the `apt-transport-https` package (if not already installed):
+   ``
+sudo apt-get install apt-transport-https
+   ```
+
+3. Add the Elasticsearch APT Repository  
+   Add the repository for Elasticsearch:
+   ``
+echo "deb [signed-by=/usr/share/keyrings/elasticsearch-keyring.gpg] https://artifacts.elastic.co/packages/8.x/apt stable main" | sudo tee /etc/apt/sources.list.d/elastic-8.x.list 
+  ```
+
+
+
+### 1. Installing Filebeat
+
+To install Filebeat on your system, use the following command:
+
+``
+sudo apt install filebeat
+```
+
+---
+
+### 2. Configuring Filebeat to Connect to Logstash
+
+After installation, we need to configure Filebeat to send logs to Logstash.
+
+a. Open the Filebeat configuration file:
+
+``
+sudo nano /etc/filebeat/filebeat.yml
+
+```
+filebeat.inputs:
+
+# Each - is an input. Most options can be set at the input level, so
+# you can use different inputs for various configurations.
+# Below are the input-specific configurations.
+
+# filestream is an input for collecting log messages from files.
+- type: filestream
+
+  # Unique ID among all inputs, an ID is required.
+  id: my-filestream-id
+
+  # Change to true to enable this input configuration.
+  enabled: true
+
+  # Paths that should be crawled and fetched. Glob based paths.
+  paths:
+    - /var/log/audit/audit.log
+    - /var/log/*.log
+    - /var/log/apache2/*.log   
+     #- c:\programdata\elasticsearch\logs\*
+
+# ---------------------------- Elasticsearch Output ----------------------------
+#output.elasticsearch:
+  # Array of hosts to connect to.
+ # hosts: ["localhost:9200"]
+
+
+# ============================== Filebeat modules ==============================
+
+filebeat.config.modules:
+  # Glob pattern for configuration loading
+  path: ${path.config}/modules.d/*.yml
+
+  # Set to true to enable config reloading
+  reload.enabled: false
+
+  # Period on which files under path should be checked for changes
+  #reload.period: 10s
+
+# ======================= Elasticsearch template setting =======================
+
+setup.template.settings:
+  index.number_of_shards: 1
+  #index.codec: best_compression
+  #_source.enabled: false
+# ------------------------------ Logstash Output -------------------------------
+output.logstash:
+  # The Logstash hosts
+  hosts: ["192.168.18.192:5044"]
+
+# ================================= Processors =================================
+processors:
+  - add_tags:
+      tags: ["apparmor"]  # Add a tag to the events
+      target:
+  - add_host_metadata:
+      when.not.contains.tags: forwarded
+  - add_cloud_metadata: ~
+  - add_docker_metadata: ~
+  - add_kubernetes_metadata: ~
+
+---
+
+
+
+
+
+### 7. Starting and Enabling Filebeat
+
+Once everything is configured, start and enable Filebeat to ensure it starts on boot:
+
+``
+sudo systemctl daemon-reload
+sudo systemctl enable filebeat
+sudo systemctl start filebeat
+sudo systemctl status filebeat
+```
+
+---
+
+to access to elk browser :
+'192.168.18.192:5601'
+
+Étapes complétées dans Kibana :
+
+Créer des règles d'alerte détaillées : Définir les conditions pour les alertes, telles que la détection des modifications de politique ou des appels système non autorisés.
+
+Concevoir des tableaux de bord et des rapports : Créer des tableaux de bord de surveillance en temps réel et générer des rapports dans Kibana.
+
+Mettre en place la réponse aux incidents : Développer des procédures pour traiter les incidents et intégrer des automatisations pour les réponses.
+
+
+Étapes complétées dans Kibana :
+
+Créer des règles d'alerte détaillées : Définir les conditions pour les alertes, telles que la détection des modifications de politique ou des appels système non autorisés.
+
+Concevoir des tableaux de bord et des rapports : Créer des tableaux de bord de surveillance en temps réel et générer des rapports dans Kibana.
+
+Mettre en place la réponse aux incidents : Développer des procédures pour traiter les incidents et intégrer des automatisations pour les réponses.
