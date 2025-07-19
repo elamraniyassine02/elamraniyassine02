@@ -55,26 +55,27 @@ My mission is to leverage technology to create smarter, safer, and more resilien
 
 <p align="center">
   <!-- Security / DevSecOps / SOC Tools -->
-  <img src="https://upload.wikimedia.org/wikipedia/commons/2/24/Ansible_logo.svg" height="40" alt="Ansible"/>
-  <img src="https://raw.githubusercontent.com/elastic/elasticsearch/master/docs/src/images/favicon.ico" height="40" alt="ELK Stack"/>
-  <img src="https://raw.githubusercontent.com/wazuh/wazuh/main/wazuh-logo.svg" height="40" alt="Wazuh"/>
-  <img src="https://upload.wikimedia.org/wikipedia/commons/8/88/Splunk_logo.svg" height="40" alt="Splunk"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ansible/ansible-original.svg" height="40" alt="Ansible"/>
+  <!-- For the following icons, upload them to your own repo and replace the URLs -->
+  <img src="https://raw.githubusercontent.com/elamraniyassine02/assets/main/elk-stack.png" height="40" alt="ELK Stack"/>
+  <img src="https://raw.githubusercontent.com/elamraniyassine02/assets/main/wazuh.png" height="40" alt="Wazuh"/>
+  <img src="https://raw.githubusercontent.com/elamraniyassine02/assets/main/splunk.png" height="40" alt="Splunk"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/oracle/oracle-original.svg" height="40" alt="Oracle"/>
-  <img src="https://about.gitlab.com/images/press/logo/png/gitlab-icon-rgb.png" height="40" alt="GitLab"/>
-  <img src="https://upload.wikimedia.org/wikipedia/commons/3/38/Jupyter_logo.svg" height="40" alt="Jupyter"/>
-  <img src="https://www.zaproxy.org/images/zap_logo.png" height="40" alt="OWASP ZAP"/>
-  <img src="https://raw.githubusercontent.com/aquasecurity/trivy/main/docs/img/trivy-logo.svg" height="40" alt="Trivy"/>
-  <img src="https://www.talend.com/wp-content/themes/talend/assets/img/logo-talend.svg" height="40" alt="Talend"/>
-  <img src="https://nmap.org/images/nmap-logo-64px.png" height="40" alt="Nmap"/>
-  <img src="https://upload.wikimedia.org/wikipedia/commons/f/f5/OpenVAS_Logo.svg" height="40" alt="OpenVAS"/>
-  <img src="https://raw.githubusercontent.com/rapid7/metasploit-framework/master/documentation/images/metasploit-logo.png" height="40" alt="Metasploit"/>
-  <img src="https://upload.wikimedia.org/wikipedia/commons/6/69/Kali_Linux_2.0_wordmark.svg" height="40" alt="Kali Linux"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gitlab/gitlab-original.svg" height="40" alt="GitLab"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg" height="40" alt="Jupyter"/>
+  <img src="https://raw.githubusercontent.com/elamraniyassine02/assets/main/owasp-zap.png" height="40" alt="OWASP ZAP"/>
+  <img src="https://raw.githubusercontent.com/elamraniyassine02/assets/main/trivy.svg" height="40" alt="Trivy"/>
+  <img src="https://raw.githubusercontent.com/elamraniyassine02/assets/main/talend.svg" height="40" alt="Talend"/>
+  <img src="https://raw.githubusercontent.com/elamraniyassine02/assets/main/nmap.png" height="40" alt="Nmap"/>
+  <img src="https://raw.githubusercontent.com/elamraniyassine02/assets/main/openvas.png" height="40" alt="OpenVAS"/>
+  <img src="https://raw.githubusercontent.com/elamraniyassine02/assets/main/metasploit.png" height="40" alt="Metasploit"/>
+  <img src="https://raw.githubusercontent.com/elamraniyassine02/assets/main/kali-linux.png" height="40" alt="Kali Linux"/>
 </p>
 
 <p align="center">
   <!-- Blockchain -->
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/solidity/solidity-original.svg" height="40" alt="Solidity"/>
-  <img src="https://raw.githubusercontent.com/ChainSafe/web3.js/1.x/docs/assets/logo/web3js.svg" height="40" alt="Web3.js"/>
+  <img src="https://raw.githubusercontent.com/elamraniyassine02/assets/main/web3js.svg" height="40" alt="Web3.js"/>
 </p>
 
 
