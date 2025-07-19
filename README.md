@@ -36,63 +36,50 @@ My mission is to leverage technology to create smarter, safer, and more resilien
 
 <h2 align="center">⚒️ Technologies & Tools ⚒️</h2>
 
-<!-- Primary Tech Stack -->
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=python,javascript,nodejs,html,css,docker,kubernetes,git,github,vscode,linux,postgres,mysql" />
+  <!-- Main Languages & Dev Tools -->
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="40" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="40" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="40" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" height="40" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg" height="40" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="40" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" height="40" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" height="40" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" height="40" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" height="40" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="40" />
 </div>
 
-<!-- Advanced Tools -->
 <br/>
+
 <div align="center">
-  <!-- Ansible -->
-  <img src="https://upload.wikimedia.org/wikipedia/commons/2/24/Ansible_logo.svg" height="40" title="Ansible"/>
-
-  <!-- ELK Stack -->
-  <img src="https://www.elastic.co/static-res/images/favicons/favicon-32x32.png" height="40" title="ELK Stack"/>
-
-  <!-- Wazuh -->
-  <img src="https://raw.githubusercontent.com/wazuh/wazuh-design/main/logos/wazuh-icon-color.png" height="40" title="Wazuh"/>
-
-  <!-- Splunk -->
-  <img src="https://upload.wikimedia.org/wikipedia/commons/f/f0/Splunk_logo.svg" height="40" title="Splunk"/>
-
-  <!-- Oracle SQL -->
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/oracle/oracle-original.svg" height="40" title="Oracle"/>
-
-  <!-- GitLab CI/CD -->
-  <img src="https://about.gitlab.com/images/press/logo/png/gitlab-icon-rgb.png" height="40" title="GitLab CI/CD"/>
-
-  <!-- Jupyter -->
-  <img src="https://upload.wikimedia.org/wikipedia/commons/3/38/Jupyter_logo.svg" height="40" title="Jupyter Notebook"/>
-
-  <!-- OWASP ZAP -->
-  <img src="https://www.zaproxy.org/images/zap_logo.png" height="40" title="OWASP ZAP"/>
-
-  <!-- Trivy -->
-  <img src="https://raw.githubusercontent.com/aquasecurity/trivy/main/docs/img/logo.svg" height="40" title="Trivy"/>
-
-  <!-- Talend -->
-  <img src="https://cdn.worldvectorlogo.com/logos/talend.svg" height="40" title="Talend"/>
-
-  <!-- Nmap -->
-  <img src="https://nmap.org/images/logo.png" height="40" title="Nmap"/>
-
-  <!-- OpenVAS -->
-  <img src="https://upload.wikimedia.org/wikipedia/commons/f/f5/OpenVAS_Logo.svg" height="40" title="OpenVAS"/>
-
-  <!-- Metasploit -->
-  <img src="https://avatars.githubusercontent.com/u/2444513?s=200&v=4" height="40" title="Metasploit"/>
-
-  <!-- Kali Linux -->
-  <img src="https://upload.wikimedia.org/wikipedia/commons/6/69/Kali_Linux_2.0_wordmark.svg" height="40" title="Kali Linux"/>
-
-  <!-- Solidity -->
-  <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/solidity.svg" height="40" title="Solidity"/>
-
-  <!-- Web3.js -->
-  <img src="https://raw.githubusercontent.com/ChainSafe/web3.js/1.x/docs/assets/logo/web3js.svg" height="40" title="Web3.js"/>
+  <!-- Security / DevSecOps Tools -->
+  <img src="https://upload.wikimedia.org/wikipedia/commons/2/24/Ansible_logo.svg" height="40" title="Ansible" />
+  <img src="https://www.elastic.co/static-res/images/favicons/favicon-32x32.png" height="40" title="ELK Stack" />
+  <img src="https://raw.githubusercontent.com/wazuh/wazuh-design/main/logos/wazuh-icon-color.png" height="40" title="Wazuh" />
+  <img src="https://upload.wikimedia.org/wikipedia/commons/f/f0/Splunk_logo.svg" height="40" title="Splunk" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/oracle/oracle-original.svg" height="40" title="Oracle" />
+  <img src="https://about.gitlab.com/images/press/logo/png/gitlab-icon-rgb.png" height="40" title="GitLab CI/CD" />
+  <img src="https://upload.wikimedia.org/wikipedia/commons/3/38/Jupyter_logo.svg" height="40" title="Jupyter Notebook" />
+  <img src="https://www.zaproxy.org/images/zap_logo.png" height="40" title="OWASP ZAP" />
+  <img src="https://raw.githubusercontent.com/aquasecurity/trivy/main/docs/img/logo.svg" height="40" title="Trivy" />
+  <img src="https://cdn.worldvectorlogo.com/logos/talend.svg" height="40" title="Talend" />
+  <img src="https://nmap.org/images/logo.png" height="40" title="Nmap" />
+  <img src="https://upload.wikimedia.org/wikipedia/commons/f/f5/OpenVAS_Logo.svg" height="40" title="OpenVAS" />
+  <img src="https://avatars.githubusercontent.com/u/2444513?s=200&v=4" height="40" title="Metasploit" />
+  <img src="https://upload.wikimedia.org/wikipedia/commons/6/69/Kali_Linux_2.0_wordmark.svg" height="40" title="Kali Linux" />
 </div>
 
+<br/>
+
+<div align="center">
+  <!-- Blockchain -->
+  <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/solidity.svg" height="40" title="Solidity" />
+  <img src="https://raw.githubusercontent.com/ChainSafe/web3.js/1.x/docs/assets/logo/web3js.svg" height="40" title="Web3.js" />
+</div>
 
 
 <hr/>
