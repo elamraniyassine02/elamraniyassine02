@@ -34,31 +34,32 @@ My mission is to leverage technology to create smarter, safer, and more resilien
 
 <hr/>
 
-<h2 align="center">⚒️ Technologies & Tools ⚒️</h2>
+<h2 align="center">⚒️ Technologies & Tools</h2>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/elamraniyassine02/elamraniyassine02/main/assets/technologies_and_tools_banner.png" alt="Technologies & Tools" />
+  <img src="https://raw.githubusercontent.com/elamraniyassine02/elamraniyassine02/main/assets/technologies_and_tools_banner.png" height="100" alt="Technologies & Tools"/>
 </p>
 
 <hr/>
 
-<h2 align="center">🐉 GitHub Contributions</h2>
+<h2 align="center">🐍 GitHub Stats & Streak</h2>
+
 <p align="center">
-  <img src="https://raw.githubusercontent.com/elamraniyassine02/elamraniyassine02/output/github-contribution-grid-snake.svg" />
-</p>
-
-<hr/>
-
-<h2 align="center">⚡ Stats</h2>
-<div align=center>
   <a href="https://git.io/streak-stats">
     <img src="https://streak-stats.demolab.com?user=elamraniyassine02&theme=blueberry-duo&hide_border=true&border_radius=4&mode=weekly" alt="GitHub Streak" />
   </a>
   <br/>
-  <img width=390 src="https://github-readme-stats.vercel.app/api?username=elamraniyassine02&count_private=true&show_icons=true&theme=react&rank_icon=github&border_radius=10" alt="readme stats" />
+  <img width=390 src="https://github-readme-stats.vercel.app/api?username=elamraniyassine02&count_private=true&show_icons=true&theme=react&rank_icon=github&border_radius=10" alt="GitHub Stats" />
   <br/>
-  <img width=325 align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=elamraniyassine02&hide=HTML&langs_count=8&layout=compact&theme=react&border_radius=10&size_weight=0.5&count_weight=0.5&exclude_repo=github-readme-stats" alt="top langs" />
-</div>
+  <img width=325 align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=elamraniyassine02&hide=HTML&langs_count=8&layout=compact&theme=react&border_radius=10&size_weight=0.5&count_weight=0.5&exclude_repo=github-readme-stats" alt="Top Languages" />
+</p>
+
+<hr/>
+
+<h2 align="center">🐍 Contribution Snake</h2>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/elamraniyassine02/elamraniyassine02/output/github-contribution-grid-snake.svg" />
+</p>
 
 <hr/>
 
