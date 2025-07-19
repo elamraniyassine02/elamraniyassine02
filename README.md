@@ -37,29 +37,28 @@ My mission is to leverage technology to create smarter, safer, and more resilien
 <h2 align="center">⚒️ Technologies & Tools ⚒️</h2>
 
 <div align="center">
-
-  <!-- Base Stack -->
+  <!-- Primary Stack -->
   <img src="https://skillicons.dev/icons?i=python,javascript,nodejs,html,css,docker,kubernetes,git,github,vscode,linux,postgres,mysql" /><br><br>
 
-  <!-- New Tools & Tech -->
-  <img src="https://cdn.simpleicons.org/ansible/EE0000" height="40" alt="Ansible" title="Ansible" />
-  <img src="https://cdn.simpleicons.org/elastic/005571" height="40" alt="ELK Stack" title="ELK Stack" />
-  <img src="https://cdn.simpleicons.org/wazuh/026bb1" height="40" alt="Wazuh" title="Wazuh" />
-  <img src="https://cdn.simpleicons.org/splunk/000000" height="40" alt="Splunk" title="Splunk" />
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/oracle/oracle-original.svg" height="40" alt="Oracle SQL" title="Oracle SQL" />
-  <img src="https://cdn.simpleicons.org/gitlab/FC6D26" height="40" alt="GitLab CI/CD" title="GitLab CI/CD" />
-  <img src="https://cdn.simpleicons.org/jupyter/F37626" height="40" alt="Jupyter Notebook" title="Jupyter Notebook" />
-  <img src="https://cdn.simpleicons.org/owasp/000000" height="40" alt="OWASP ZAP" title="OWASP ZAP" />
+  <!-- Secondary Tools with working hosted icons -->
+  <img src="https://upload.wikimedia.org/wikipedia/commons/2/24/Ansible_logo.svg" height="40" alt="Ansible" title="Ansible" />
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Elastic_Logo.svg/2560px-Elastic_Logo.svg.png" height="40" alt="ELK Stack" title="ELK Stack" />
+  <img src="https://raw.githubusercontent.com/wazuh/wazuh-design/main/logos/wazuh-icon-color.png" height="40" alt="Wazuh" title="Wazuh" />
+  <img src="https://upload.wikimedia.org/wikipedia/commons/f/f0/Splunk_logo.svg" height="40" alt="Splunk" title="Splunk" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/oracle/oracle-original.svg" height="40" alt="Oracle SQL" title="Oracle SQL" />
+  <img src="https://about.gitlab.com/images/press/logo/png/gitlab-icon-rgb.png" height="40" alt="GitLab" title="GitLab CI/CD" />
+  <img src="https://upload.wikimedia.org/wikipedia/commons/3/38/Jupyter_logo.svg" height="40" alt="Jupyter Notebook" title="Jupyter Notebook" />
+  <img src="https://raw.githubusercontent.com/zaproxy/zaproxy/main/zap-extensions/zapHomeFiles/web/images/zap32x32.png" height="40" alt="OWASP ZAP" title="OWASP ZAP" />
   <img src="https://raw.githubusercontent.com/aquasecurity/trivy/main/docs/img/logo.svg" height="40" alt="Trivy" title="Trivy" />
   <img src="https://upload.wikimedia.org/wikipedia/commons/8/86/Talend_Logo.png" height="40" alt="Talend" title="Talend" />
   <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Nmap-logo.svg" height="40" alt="Nmap" title="Nmap" />
   <img src="https://upload.wikimedia.org/wikipedia/commons/f/f5/OpenVAS_Logo.svg" height="40" alt="OpenVAS" title="OpenVAS" />
   <img src="https://upload.wikimedia.org/wikipedia/commons/1/10/Metasploit_logo_and_wordmark.svg" height="40" alt="Metasploit" title="Metasploit" />
   <img src="https://upload.wikimedia.org/wikipedia/commons/6/69/Kali_Linux_2.0_wordmark.svg" height="40" alt="Kali Linux" title="Kali Linux" />
-  <img src="https://cdn.simpleicons.org/solidity/363636" height="40" alt="Solidity" title="Solidity" />
-  <img src="https://cdn.simpleicons.org/web3dotjs/F16822" height="40" alt="Web3.js" title="Web3.js" />
-
+  <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/solidity.svg" height="40" alt="Solidity" title="Solidity" />
+  <img src="https://raw.githubusercontent.com/ChainSafe/web3.js/1.x/docs/assets/logo/web3js.svg" height="40" alt="Web3.js" title="Web3.js" />
 </div>
+
 
 
 
