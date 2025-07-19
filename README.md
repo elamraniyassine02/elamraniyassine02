@@ -56,28 +56,26 @@ My mission is to leverage technology to create smarter, safer, and more resilien
 <p align="center">
   <!-- Security / SIEM / DevSecOps -->
   <img src="https://upload.wikimedia.org/wikipedia/commons/2/24/Ansible_logo.svg" height="40" alt="Ansible"/>
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Elasticsearch_Logo.svg/512px-Elasticsearch_Logo.svg.png" height="40" alt="ELK Stack"/>
-  <img src="https://wazuh.com/wp-content/uploads/2020/08/logo_blue.png" height="40" alt="Wazuh"/>
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Splunk_logo.svg/512px-Splunk_logo.svg.png" height="40" alt="Splunk"/>
+  <img src="https://i.imgur.com/nM5y6Z2.png" height="40" alt="ELK Stack"/>
+  <img src="https://i.imgur.com/Oj1oZ5b.png" height="40" alt="Wazuh"/>
+  <img src="https://i.imgur.com/ZMIrJ7N.png" height="40" alt="Splunk"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/oracle/oracle-original.svg" height="40" alt="Oracle"/>
   <img src="https://about.gitlab.com/images/press/logo/png/gitlab-icon-rgb.png" height="40" alt="GitLab"/>
   <img src="https://upload.wikimedia.org/wikipedia/commons/3/38/Jupyter_logo.svg" height="40" alt="Jupyter"/>
-  <img src="https://raw.githubusercontent.com/zaproxy/zaproxy/main/zap/src/main/resources/resource/zap128x128.png" height="40" alt="OWASP ZAP"/>
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/No_image_available.svg/600px-No_image_available.svg.png" height="40" alt="Trivy"/>
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Talend_Logo.png/600px-Talend_Logo.png" height="40" alt="Talend"/>
+  <img src="https://i.imgur.com/N5uLo1K.png" height="40" alt="OWASP ZAP"/>
+  <img src="https://i.imgur.com/rkoRCYf.png" height="40" alt="Trivy"/>
+  <img src="https://i.imgur.com/YZq3DXk.png" height="40" alt="Talend"/>
   <img src="https://nmap.org/images/nmap-logo-64px.png" height="40" alt="Nmap"/>
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/OpenVAS_Logo.svg/512px-OpenVAS_Logo.svg.png" height="40" alt="OpenVAS"/>
-  <img src="https://upload.wikimedia.org/wikipedia/en/1/13/Metasploit_logo.png" height="40" alt="Metasploit"/>
-  <img src="https://upload.wikimedia.org/wikipedia/commons/6/69/Kali_Linux_2.0_wordmark.svg" height="40" alt="Kali Linux"/>
+  <img src="https://i.imgur.com/Y1WXX6n.png" height="40" alt="OpenVAS"/>
+  <img src="https://i.imgur.com/5kMEUqR.png" height="40" alt="Metasploit"/>
+  <img src="https://i.imgur.com/GJK8Fqe.png" height="40" alt="Kali Linux"/>
 </p>
 
 <p align="center">
   <!-- Blockchain -->
-  <img src="https://upload.wikimedia.org/wikipedia/commons/9/98/Solidity_logo.svg" height="40" alt="Solidity"/>
-  <img src="https://avatars.githubusercontent.com/u/1441776?s=280&v=4" height="40" alt="Web3.js"/>
+  <img src="https://i.imgur.com/sv3aFiN.png" height="40" alt="Solidity"/>
+  <img src="https://i.imgur.com/U4G7bIr.png" height="40" alt="Web3.js"/>
 </p>
-
-
 
 
 
