@@ -34,10 +34,15 @@ My mission is to leverage technology to create smarter, safer, and more resilien
 
 <hr/>
 
-<h2 align="center">⚒️ Technologies & Tools</h2>
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=python,javascript,nodejs,solidity,html,css,docker,kubernetes,git,github,vscode,linux,postgres,mysql" />
-</p>
+<h2 align="center">⚒️ Technologies & Tools ⚒️</h2>
+<div align="center">
+    <img src="https://skillicons.dev/icons?i=python,javascript,nodejs,html,css,docker,kubernetes,git,github,vscode,linux,postgres,mysql" />
+    <img src="https://cdn.simpleicons.org/ansible/EE0000" height="40" />
+    <img src="https://cdn.simpleicons.org/splunk/000000" height="40" />
+    <img src="https://cdn.simpleicons.org/elastic/005571" height="40" />
+    <img src="https://cdn.simpleicons.org/wazuh/026bb1" height="40" />
+</div>
+
 
 <hr/>
 
