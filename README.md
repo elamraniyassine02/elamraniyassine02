@@ -1,24 +1,25 @@
 
-<!-- ===================================================== -->
-<!-- YASSINE EL AMRANI | CYBERSECURITY ENGINEER             -->
-<!-- GitHub Profile README                                 -->
-<!-- ===================================================== -->
+<!-- ====================================================== -->
+<!-- YASSINE EL AMRANI | CYBERSECURITY PROFILE              -->
+<!-- Professional GitHub Profile README                    -->
+<!-- ====================================================== -->
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=30&duration=2800&pause=1000&color=38BDF8&center=true&vCenter=true&repeat=true&width=850&height=70&lines=Hello%2C+I'm+Yassine+El+Amrani;Cybersecurity+Engineer;Penetration+Testing+%26+Cyber+Defense;SOC%2FSIEM+%26+Security+Automation;Securing+Systems.+Reducing+Risks." alt="Animated cybersecurity introduction"/>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&duration=2800&pause=1000&color=38BDF8&center=true&vCenter=true&repeat=true&width=800&height=65&lines=Hello%2C+I'm+Yassine+El+Amrani;Cybersecurity+Engineer;Penetration+Testing+%26+Cyber+Defense;SOC%2FSIEM+%26+Security+Automation;Securing+Systems.+Reducing+Risks." alt="Yassine El Amrani animated introduction" />
 
 ### Cybersecurity Engineer
+
 **Junior Security Consultant, Penetration Testing and Cyber Defense**
 
-<img src="https://img.shields.io/badge/LOCATION-Rabat%2C%20Morocco-0F172A?style=for-the-badge&logo=googlemaps&logoColor=38BDF8" alt="Rabat Morocco"/>
-<img src="https://img.shields.io/badge/FOCUS-Offensive%20%26%20Defensive%20Security-0369A1?style=for-the-badge&logo=hackthebox&logoColor=white" alt="Offensive and Defensive Security"/>
+<img src="https://img.shields.io/badge/LOCATION-Rabat%2C_Morocco-0F172A?style=flat-square&logo=googlemaps&logoColor=38BDF8" alt="Rabat Morocco" />
+<img src="https://img.shields.io/badge/FOCUS-Offensive_%26_Defensive_Security-0369A1?style=flat-square&logo=hackthebox&logoColor=white" alt="Offensive and Defensive Security" />
 
 <br/><br/>
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/el-amrani-yassine-a80608306/)
-[![Email](https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:elamrani.yassine001@gmail.com)
-[![Repositories](https://img.shields.io/badge/GitHub-Explore_Projects-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/elamraniyassine02?tab=repositories)
+[![Email](https://img.shields.io/badge/Gmail-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:elamrani.yassine001@gmail.com)
+[![Repositories](https://img.shields.io/badge/GitHub-Projects-24292F?style=for-the-badge&logo=github&logoColor=white)](https://github.com/elamraniyassine02?tab=repositories)
 
 </div>
 
@@ -26,7 +27,7 @@
 
 ## 🛡️ About Me
 
-I'm a **Cybersecurity Engineer** currently working as a **Junior Cybersecurity Consultant at NEWERACOM**, with a focus on offensive and defensive security.
+I'm a **Cybersecurity Engineer** currently working as a **Junior Cybersecurity Consultant at NEWERACOM**, focusing on offensive and defensive security.
 
 My work includes web and network penetration testing, vulnerability assessments, security audits, SOC and SIEM monitoring, threat detection, incident response, and infrastructure hardening.
 
@@ -36,34 +37,78 @@ My main interests are penetration testing, cyber defense, security engineering, 
 
 ### Security Operations Profile
 
-```text
-┌─────────────────────────────────────────────────────────┐
-│                 SECURITY OPERATIONS                     │
-├─────────────────────────────────────────────────────────┤
-│                                                         │
-│  [ RED TEAM ]     Penetration Testing                    │
-│                   Vulnerability Assessment              │
-│                   Web & Network Security                │
-│                                                         │
-│  [ BLUE TEAM ]    SOC / SIEM Monitoring                  │
-│                   Threat Detection                      │
-│                   Incident Response                     │
-│                   Active Directory Security             │
-│                                                         │
-│  [ AUTOMATION ]   Python / Bash                          │
-│                   Security Tool Integration             │
-│                   DevSecOps / Infrastructure Hardening  │
-│                                                         │
-└─────────────────────────────────────────────────────────┘
-```
+<div align="center">
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=15&duration=2600&pause=1200&color=22D3EE&center=true&vCenter=true&width=750&height=42&lines=%3E+Initializing+Security+Operations+Profile...;%3E+Loading+Offensive+Security+Capabilities...;%3E+Loading+Defensive+Security+Capabilities...;%3E+Security+Automation+Modules+Ready" alt="Animated security operations profile" />
+
+</div>
+
+<table>
+<tr>
+<th align="center">SECURITY DOMAIN</th>
+<th align="center">CORE CAPABILITIES</th>
+<th align="center">TECHNICAL FOCUS</th>
+</tr>
+
+<tr>
+<td align="center">
+<img src="https://img.shields.io/badge/RED_TEAM-OFFENSIVE-DC2626?style=for-the-badge" alt="Red Team"/>
+</td>
+<td>
+Penetration Testing<br/>
+Vulnerability Assessment<br/>
+Web and Network Security
+</td>
+<td>
+Reconnaissance<br/>
+Enumeration<br/>
+Security Validation
+</td>
+</tr>
+
+<tr>
+<td align="center">
+<img src="https://img.shields.io/badge/BLUE_TEAM-DEFENSIVE-2563EB?style=for-the-badge" alt="Blue Team"/>
+</td>
+<td>
+SOC and SIEM Monitoring<br/>
+Threat Detection<br/>
+Incident Response
+</td>
+<td>
+Log Analysis<br/>
+Active Directory Security<br/>
+Security Hardening
+</td>
+</tr>
+
+<tr>
+<td align="center">
+<img src="https://img.shields.io/badge/SECURITY-AUTOMATION-0F766E?style=for-the-badge" alt="Security Automation"/>
+</td>
+<td>
+Python and Bash<br/>
+Security Tool Integration<br/>
+DevSecOps
+</td>
+<td>
+Workflow Automation<br/>
+Evidence Collection<br/>
+Technical Reporting
+</td>
+</tr>
+</table>
 
 <div align="center">
 
-![Pentesting](https://img.shields.io/badge/PENETRATION_TESTING-0F172A?style=flat-square&logo=hackthebox&logoColor=38BDF8)
-![SOC](https://img.shields.io/badge/SOC_OPERATIONS-0F172A?style=flat-square&logo=elastic&logoColor=38BDF8)
-![SIEM](https://img.shields.io/badge/SIEM_MONITORING-0F172A?style=flat-square)
-![Cyber Defense](https://img.shields.io/badge/CYBER_DEFENSE-0F172A?style=flat-square)
-![Automation](https://img.shields.io/badge/SECURITY_AUTOMATION-0F172A?style=flat-square&logo=python&logoColor=38BDF8)
+<img src="https://img.shields.io/badge/ASSESS-Vulnerabilities-DC2626?style=flat-square" alt="Assess" />
+<img src="https://img.shields.io/badge/DETECT-Threats-2563EB?style=flat-square" alt="Detect" />
+<img src="https://img.shields.io/badge/RESPOND-Incidents-0F766E?style=flat-square" alt="Respond" />
+<img src="https://img.shields.io/badge/HARDEN-Infrastructure-475569?style=flat-square" alt="Harden" />
+
+<br/>
+
+<sub>Security domains and technical competencies. This is a professional profile overview, not a live monitoring console.</sub>
 
 </div>
 
@@ -76,71 +121,105 @@ My main interests are penetration testing, cyber defense, security engineering, 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
 ![OWASP](https://img.shields.io/badge/OWASP-00549E?style=flat-square&logo=owasp&logoColor=white)
-![Security Automation](https://img.shields.io/badge/Security_Automation-0369A1?style=flat-square)
-![Web Security](https://img.shields.io/badge/Web_Security-334155?style=flat-square)
+![Pentesting](https://img.shields.io/badge/Pentesting-DC2626?style=flat-square)
+![Automation](https://img.shields.io/badge/Automation-0369A1?style=flat-square)
 
 A Python-based framework for structured and authorized web application security assessments.
 
-It combines a CLI execution engine with a local FastAPI dashboard to support assessment planning, reconnaissance, web surface enumeration, bounded security validation, evidence collection, and professional reporting.
+It combines a CLI execution engine with a local FastAPI dashboard for assessment planning, reconnaissance, web surface enumeration, bounded security validation, evidence collection, and professional reporting.
 
 **Key capabilities**
 
 - Eight-phase security assessment methodology.
 - Passive and active reconnaissance.
 - Web surface enumeration and vulnerability assessment.
-- Integration of security tools including Nmap, HTTPX, FFUF, Nuclei, and Burp Suite workflows.
+- Integration of security tools and assessment workflows.
 - Evidence collection and normalized findings.
 - Automated technical reporting.
-- Local web dashboard with controlled execution.
+- Local dashboard with controlled execution.
 
 <details>
-<summary><b>🔎 Technical Details</b></summary>
+<summary><b>🔎 Explore Technical Architecture and Capabilities</b></summary>
+
 <br/>
 
-**Architecture**
+<div align="center">
 
-```text
-                  APAWA / PTF
-                       |
-          +------------+------------+
-          |                         |
-      CLI Engine               Web Dashboard
-          |                         |
-          +------------+------------+
-                       |
-             Assessment Workflow
-                       |
-              Reconnaissance
-                       |
-              Web Enumeration
-                       |
-            Security Assessment
-                       |
-             Evidence Collection
-                       |
-              Findings & Reports
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=15&weight=500&duration=2500&pause=1200&color=38BDF8&center=true&vCenter=true&width=700&height=38&lines=%3E+APAWA%2FPTF+Architecture;%3E+CLI+Execution+%2B+Local+Dashboard;%3E+Controlled+Assessment+Workflow;%3E+Evidence+Collection+%26+Reporting" alt="APAWA technical architecture animation"/>
+
+</div>
+
+#### System Architecture
+
+```mermaid
+flowchart TD
+    A["Authorized Assessment"] --> B["CLI Execution Engine"]
+    A --> C["Local FastAPI Dashboard"]
+    C --> B
+    B --> D["Assessment Workflow"]
+    D --> E["Reconnaissance"]
+    E --> F["Web Surface Enumeration"]
+    F --> G["Security Assessment"]
+    G --> H["Evidence Collection"]
+    H --> I["Findings and Reporting"]
+
+    classDef entry fill:#164e63,color:#ffffff,stroke:#22d3ee
+    classDef engine fill:#1e3a8a,color:#ffffff,stroke:#60a5fa
+    classDef process fill:#0f172a,color:#e2e8f0,stroke:#64748b
+    classDef output fill:#065f46,color:#ffffff,stroke:#34d399
+
+    class A entry
+    class B,C engine
+    class D,E,F,G,H process
+    class I output
 ```
 
-**Technologies**
+#### Assessment Modules
 
-Python, FastAPI, Nmap, HTTPX, FFUF, Nuclei, WhatWeb, Burp Suite, SQLite.
+| Phase | Security Activity | Technical Focus |
+|---|---|---|
+| 01 | Engagement Setup | Scope and authorization |
+| 02 | Passive Reconnaissance | OSINT, DNS and asset discovery |
+| 03 | Active Reconnaissance | Nmap, service discovery and HTTP probing |
+| 04 | Web Enumeration | Katana, FFUF and surface discovery |
+| 05 | Security Assessment | Configuration and vulnerability checks |
+| 06 | Traffic Validation | HTTP analysis and bounded validation |
+| 07 | Evidence Preparation | Evidence records and structured findings |
+| 08 | Reporting | Technical assessment reports |
 
-**Security considerations**
+#### Technology Stack
 
-The framework is designed for authorized assessments with controlled execution, bounded security validation, and analyst review of collected evidence.
+**Backend:** Python, FastAPI, SQLite
+
+**Reconnaissance:** Nmap, Subfinder, HTTPX, WhatWeb
+
+**Web Enumeration:** Katana, FFUF
+
+**Security Assessment:** Nuclei, Burp Suite workflows, SSLyze
+
+**Reporting:** Markdown, HTML, normalized security findings
+
+#### Security Principles
+
+- Authorized assessment scope.
+- Controlled execution.
+- Bounded security validation.
+- Analyst review.
+- Evidence-first reporting.
+- Local-only dashboard.
 
 </details>
 
-[![View Repository](https://img.shields.io/badge/VIEW_PROJECT-APAWA%2FPTF-0284C7?style=for-the-badge&logo=github&logoColor=white)](https://github.com/elamraniyassine02/automated-web-pentesting-framework)
+[![View APAWA Repository](https://img.shields.io/badge/VIEW_REPOSITORY-APAWA%2FPTF-0284C7?style=for-the-badge&logo=github&logoColor=white)](https://github.com/elamraniyassine02/automated-web-pentesting-framework)
 
 ---
 
 ### 02. [AI-Driven Security Framework](https://github.com/elamraniyassine02/AI-DRIVEN-SECURITY)
 
-![ELK](https://img.shields.io/badge/ELK_Stack-005571?style=flat-square&logo=elastic&logoColor=white)
+![ELK Stack](https://img.shields.io/badge/ELK_Stack-005571?style=flat-square&logo=elastic&logoColor=white)
 ![SIEM](https://img.shields.io/badge/SIEM-0369A1?style=flat-square)
 ![Active Directory](https://img.shields.io/badge/Active_Directory-334155?style=flat-square)
-![Security Monitoring](https://img.shields.io/badge/Security_Monitoring-0F766E?style=flat-square)
+![Detection](https://img.shields.io/badge/Threat_Detection-0F766E?style=flat-square)
 
 A cybersecurity monitoring project focused on log analysis, Active Directory attack detection, and security visibility using ELK Stack and related security technologies.
 
@@ -148,35 +227,38 @@ A cybersecurity monitoring project focused on log analysis, Active Directory att
 
 - Active Directory security monitoring.
 - Centralized log collection and analysis.
-- Security dashboards and detection rules.
-- Detection scenarios covering brute-force attacks, Pass-the-Hash, Kerberoasting, and AS-REP Roasting.
-- Threat analysis and incident investigation.
+- SIEM dashboards and detection rules.
+- Brute-force, Pass-the-Hash, Kerberoasting, and AS-REP Roasting scenarios.
+- Threat analysis and security investigation.
 
 <details>
-<summary><b>🔎 Detection Engineering Focus</b></summary>
+<summary><b>🔎 Explore Detection Engineering Workflow</b></summary>
+
 <br/>
 
-```text
-Windows / Active Directory
-          |
-     Security Logs
-          |
-     Log Collection
-          |
-       ELK Stack
-          |
-   Detection Rules
-          |
-  Dashboards & Alerts
-          |
-   Security Analysis
+```mermaid
+flowchart TD
+    A["Windows and Active Directory"] --> B["Security Event Logs"]
+    B --> C["Log Collection"]
+    C --> D["ELK Stack"]
+    D --> E["Detection Rules"]
+    E --> F["Dashboards and Alerts"]
+    F --> G["Security Analysis"]
+
+    classDef system fill:#1e3a8a,color:#ffffff,stroke:#60a5fa
+    classDef monitor fill:#0f172a,color:#e2e8f0,stroke:#64748b
+    classDef result fill:#065f46,color:#ffffff,stroke:#34d399
+
+    class A,B system
+    class C,D,E monitor
+    class F,G result
 ```
 
-The project explores offensive security scenarios and their visibility through defensive monitoring.
+This project connects offensive security scenarios with defensive monitoring and detection engineering.
 
 </details>
 
-[![View Repository](https://img.shields.io/badge/VIEW_PROJECT-AI_DRIVEN_SECURITY-0284C7?style=for-the-badge&logo=github&logoColor=white)](https://github.com/elamraniyassine02/AI-DRIVEN-SECURITY)
+[![View Security Project](https://img.shields.io/badge/VIEW_REPOSITORY-AI_DRIVEN_SECURITY-0284C7?style=for-the-badge&logo=github&logoColor=white)](https://github.com/elamraniyassine02/AI-DRIVEN-SECURITY)
 
 ---
 
@@ -187,7 +269,7 @@ The project explores offensive security scenarios and their visibility through d
 ![CI/CD](https://img.shields.io/badge/CI%2FCD-FC6D26?style=flat-square&logo=gitlab&logoColor=white)
 ![Security Testing](https://img.shields.io/badge/Security_Testing-0369A1?style=flat-square)
 
-A project exploring vulnerability assessment and security testing within software development and deployment workflows.
+A project exploring vulnerability assessment and security testing within development and deployment workflows.
 
 **Focus**
 
@@ -197,12 +279,13 @@ A project exploring vulnerability assessment and security testing within softwar
 - Secure development practices.
 - DevSecOps automation.
 
-[![View Repository](https://img.shields.io/badge/VIEW_PROJECT-DEVSECOPS-0284C7?style=for-the-badge&logo=github&logoColor=white)](https://github.com/elamraniyassine02/studio)
+[![View DevSecOps Project](https://img.shields.io/badge/VIEW_REPOSITORY-DEVSECOPS-0284C7?style=for-the-badge&logo=github&logoColor=white)](https://github.com/elamraniyassine02/studio)
 
 ---
 
 <details>
 <summary><b>📂 Other Projects</b></summary>
+
 <br/>
 
 ### [uemfCoin, Custom Blockchain](https://github.com/elamraniyassine02/tp-exam-blockchain)
@@ -235,7 +318,7 @@ A Proof-of-Work blockchain project developed with Node.js, covering transactions
 <div align="center">
 
 ![Wazuh](https://img.shields.io/badge/Wazuh-2563EB?style=for-the-badge)
-![ELK](https://img.shields.io/badge/ELK_Stack-005571?style=for-the-badge&logo=elastic&logoColor=white)
+![ELK Stack](https://img.shields.io/badge/ELK_Stack-005571?style=for-the-badge&logo=elastic&logoColor=white)
 ![Active Directory](https://img.shields.io/badge/Active_Directory-334155?style=for-the-badge)
 ![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white)
 ![Threat Detection](https://img.shields.io/badge/Threat_Detection-0F766E?style=for-the-badge)
@@ -279,19 +362,20 @@ A Proof-of-Work blockchain project developed with Node.js, covering transactions
 
 <img src="https://raw.githubusercontent.com/elamraniyassine02/elamraniyassine02/output/github-contribution-grid-snake.svg" alt="Animated GitHub contribution snake" width="95%"/>
 
-<sub>Animated contribution history generated from GitHub activity.</sub>
+<br/>
+
+<sub>GitHub contribution visualization generated from recorded activity.</sub>
 
 </div>
 
 <details>
-<summary><b>📊 View GitHub Activity Graph</b></summary>
+<summary><b>📊 Explore Contribution Activity</b></summary>
+
 <br/>
 
-<div align="center">
+View my contribution history and activity directly on my GitHub profile.
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=elamraniyassine02&bg_color=0D1117&color=38BDF8&line=0284C7&point=7DD3FC&area=true&hide_border=true&radius=8" alt="GitHub activity graph" width="100%"/>
-
-</div>
+[![GitHub Activity](https://img.shields.io/badge/VIEW_GITHUB-CONTRIBUTION_ACTIVITY-0284C7?style=for-the-badge&logo=github&logoColor=white)](https://github.com/elamraniyassine02)
 
 </details>
 
@@ -301,9 +385,16 @@ A Proof-of-Work blockchain project developed with Node.js, covering transactions
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=elamraniyassine02&show_icons=true&theme=github_dark&hide_border=true&include_all_commits=true&rank_icon=github" alt="GitHub profile statistics" height="170"/>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=15&duration=3000&pause=1200&color=38BDF8&center=true&vCenter=true&width=680&height=40&lines=%3E+GitHub+Repository+Activity;%3E+Language+Distribution;%3E+Contribution+History" alt="Animated GitHub statistics heading"/>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=elamraniyassine02&layout=compact&theme=github_dark&hide_border=true&langs_count=6" alt="Most used programming languages" height="170"/>
+<br/>
+
+<img src="https://img.shields.io/github/followers/elamraniyassine02?style=for-the-badge&logo=github&label=Followers&color=0284C7" alt="GitHub followers"/>
+<img src="https://img.shields.io/github/stars/elamraniyassine02?style=for-the-badge&logo=github&label=Stars&color=0F766E" alt="GitHub stars"/>
+
+<br/><br/>
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=elamraniyassine02&layout=compact&theme=github_dark&hide_border=true&langs_count=6" alt="GitHub repository language statistics" width="370"/>
 
 <br/><br/>
 
@@ -313,14 +404,13 @@ A Proof-of-Work blockchain project developed with Node.js, covering transactions
 
 <details>
 <summary><b>📈 About These Statistics</b></summary>
+
 <br/>
 
-These visualizations are generated from GitHub repository and contribution data.
-
-- GitHub statistics summarize repository activity and engagement.
-- Language distribution reflects public repository content, not technical proficiency.
-- Contribution streaks depend on recorded GitHub contribution activity.
-- Third-party services may occasionally return cached results or experience temporary outages.
+- Language distribution reflects repository contents, not programming proficiency.
+- GitHub contribution history depends on recorded activity and visibility settings.
+- Badges and charts use external services and may occasionally show cached data.
+- The official GitHub profile remains the source of record for contribution history.
 
 </details>
 
@@ -338,10 +428,10 @@ I'm open to professional discussions, cybersecurity projects, and collaboration 
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Let's_Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/el-amrani-yassine-a80608306/)
 [![Email](https://img.shields.io/badge/Gmail-Contact_Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:elamrani.yassine001@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-My_Repositories-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/elamraniyassine02?tab=repositories)
+[![Repositories](https://img.shields.io/badge/GitHub-My_Repositories-24292F?style=for-the-badge&logo=github&logoColor=white)](https://github.com/elamraniyassine02?tab=repositories)
 
-<br/>
+<br/><br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=15&duration=3500&pause=1500&color=38BDF8&center=true&vCenter=true&width=650&height=40&lines=Keep+Learning.+Keep+Building.+Keep+Securing.;Offensive+Mindset.+Defensive+Strategy." alt="Cybersecurity closing message"/>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=15&duration=3500&pause=1500&color=38BDF8&center=true&vCenter=true&width=670&height=40&lines=Keep+Learning.+Keep+Building.+Keep+Securing.;Offensive+Mindset.+Defensive+Strategy." alt="Animated cybersecurity closing message"/>
 
 </div>
